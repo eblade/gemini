@@ -1,0 +1,90 @@
+# New Keyboard Part III
+
+I thought that I'd share an update on my journey with the Gherkin keyboard. First, pictures!
+
+=> gherkin.jpg Photo of the keyboard
+=> gherkin_layout.png The keyboard layout
+
+I do now, after a little more than a month of active use, for work mainly, feel that I am starting to get comfortable on this little beast. A Gherkin keyboard, for those who are not familiar, is a 30% sized keyboard. The percentage here is kind of rough, since a 40% keyboard has 48 keys and this one only has 30. Friends of consistency will be annoyed.
+
+Also, I might repeat myself from previous posts, consider this a summary and conclusion post.
+
+## Layers are not enough
+
+The first problem you run into when trying to make one of those keyboards is that there are too few keys to fit all the functions. Doh, you say, that is already a problem with the Planck 40% keyboard and even bigger ones. You just have layers. But here, the problem is much worse. If you want an English layout, there are 26 letters. So far so good. Maybe you want Space and Return to be on your primary layer. OK, now you have 2 keys left and you probably need some layer modifiers. Wait, did you say modifiers? Shift, Ctrl, Alt, GUI ("Windows") and I am also a Swedish speaker so I also need AltGr for international maps. That's five more keys, so it adds up to 33 keys now already. The thing with modifiers is that they need to be on the primary layer, since you need to be able to hold them while hitting other keys. Also they might need to be available on some sublayers as well.
+
+Some people solve this by splitting the keyboard and adding some "thumb" keys. It's kind of a neat idea but it complicates the design and makes it less portable. You might also call it cheating. So let's stick to 30 keys. I also do want to have all the English letters on the primary layers.
+
+A solution to this can be found in the tap-hold functionality of the QMK firmware that I am using. So some keys will have one function when tapped (a letter, for instance) and another one when held (preferably a modifier). For example, Z acts as Ctrl when held, and A as Shift.  C becomes Alt and V AltGr. This reminds me a lot of a normal keyboard, so it is easy to pick up.
+
+But then how does one make Shift-A or Ctrl-Z? By mirroring the whole tap-hold thing onto the opposite side of the keyboard! I am not used to using the right version of any of the modifiers so this took (takes) a bit of getting used to for me I must admit. But it works.
+
+Additionally, the B and N keys acts as layer modifiers Upper and Lower (like with Planck). This way I ended up with the primary layer, while tapping, consists of A-Z, Comma, Dot, Space and Return.
+
+## Position of the Space bar
+
+One odd thing that you see on this keyboard is that the Space key is to the right, in the vertical middle. This is really odd and took a little while to get use to, a week or so. Also it is now very annoying to use a standard keyboard as I may accidentally hit Return when reaching for where I think Space is. But I think I can learn to have these layouts separated in my head.
+
+Initially I had the Space key at the bottom right, and Return above it, so that looked more like a standard keyboard, but the bottom corner is kind of awkward to reach all the time, like you would with space, so I had to switch their positions.
+
+## Combinations
+
+I actually found the layer thing on Planck a bit uncomfortable so this time I wanted to, and to some extend was forced to, find alternate solutions, unless I wanted another layer modifier (I didn't). The solution was so called "combos", which in QMK are combinations of 2 or more keys that make up a new functions when pressed together at the same time. Think not of them like Ctrl-C where Ctrl is clearly pressed before C, but more like they form a chord on a piano, pressed at the same time.
+
+So I started to sprinkle them all over the place, and currently there are 45 of them. That means I have have 30 tapped keys + 5 held modifiers + 45 combinations on my primary layer, making it 80 functions using 30 keys. Simply magical. These keys are defined as combos:
+
+* Escape
+* Backspace
+* Delete
+* Tab
+* Shift+Tab (convenient!)
+* Backtick
+* Tilde
+* All the brackets
+* Backslash
+* Pipe
+* Dash
+* Underscore
+* Equals
+* Plus
+* Colon
+* Semicolon
+* Quote
+* Double-quote
+* Slash
+* Question mark
+* Numbers (diagonal combos)
+* F keys 1-6 and 9-12 (vertical combos)
+
+## Layers
+
+There are then two Planck-style layers, plus an extra function layer. The "upper" one has all the numbers on the top row and the arrow keys on HJKL (Vim!). The "lower" layer has Insert, Home, PgDn, PgUp, End, Volume up/down, Mute and also a switch to the function layer, which stays on for one key press and then goes back to the primary layer.
+
+The function layer has all the function keys, Print Screen plus some special debug/reset keys.
+
+## Tweaks I made from the original MechBoards package
+
+Included in the package of the 40%club design I bought from the British seller MechBoards was:
+
+* Three PCBs for bottom, circuit and alignment matrix.
+* Diodes
+* Screws and spacers
+* I included a low profile Micro clone with USB-C controller
+
+First, there were too few screws and spacers included. I pointed this out to the seller, which sent me new ones, resulting in extra customs from UK to Sweden. Also they forgot to include more screws... So I did not want to pay customs again so I sourced them myself from the local RC shop. Found really nice black ones so it ended up quite nice anyway.
+
+For switches I had some Cherry MX Clear from an old now defunct Planck keyboard with hot-swappable mounts. I took the nice-looking retro caps from my previous Planck keyboard as well.
+
+I then installed a hardware reset switch at the back for easier programming of the keyboard.
+
+## Further improvements
+
+If I were to improve on the design, I would probably go with something based on the Raspberry Pi Nano or similar, so I can use MicroPython instead of QMK, which takes a little bit of work to set up. The controller is actually cheaper than the one I got and has a lot more memory and capabilities.
+
+A part of me also wants to have a display. I don't know what for but I like displays.
+
+I think it would be nice to have a palm rest. Or maybe go for low profile keys next time.
+
+I am also thinking of repurpose my old Planck keyboard to be some kind of MIDI controller, I think that could be useful.
+
+=> https://github.com/eblade/qmk_firmware/tree/master/keyboards/40percentclub/gherkin/keymaps/johan My QMK keymap and config

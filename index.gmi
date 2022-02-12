@@ -1,0 +1,31 @@
+# Johan Egneblad's Capsule
+
+
+```
+  88888  dP"Yb  88  88    db    88b 88
+     88 dP   Yb 88  88   dPYb   88Yb88
+ o.  88 Yb   dP 888888  dP__Yb  88 Y88
+ "bodP'  YbodP  88  88 dP""""Yb 88  Y8
+ 
+ 888888  dP""b8 88b 88 888888 88""Yb 88        db    8888b.
+ 88__   dP   `" 88Yb88 88__   88__dP 88       dPYb    8I  Yb
+ 88""   Yb  "88 88 Y88 88""   88""Yb 88  .o  dP__Yb   8I  dY
+ 888888  YboodP 88  Y8 888888 88oodP 88ood8 dP""""Yb 8888Y"
+```
+
+=> stafetten.gmi Stafetten (art and music project)
+=> gaffeltrucken2_c.pdf MTB Map (PDF)
+
+## Gemlog
+
+Any replies to johan [at] egneblad.se
+
+=> new-keyboard-part-3.gmi 2022-01-12 New Keyboard Part III
+=> final-countdown.gmi 2022-01-03 Final Countdown
+=> new-keyboard-part-2.gmi 2021-11-17 New Keyboard Part II
+=> swifties-on-the-new-keyboard.gmi 2021-11-15 Swifties on the New Keyboard
+=> why-should-users-trust-us.gmi 2021-10-22 Why Should Users Trust Us?
+=> re-free-speech-vs-itself.gmi 2021-10-10 Re: Free speech, vs itself
+=> encryption-and-signing.gmi 2021-09-27 Encryption and Signing
+=> elixir.gmi 2021-09-23 Elixir
+=> becoming-product-owner.gmi 2021-09-22 Becoming Product Owner

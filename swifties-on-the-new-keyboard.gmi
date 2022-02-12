@@ -1,0 +1,66 @@
+# Swifties on the New Keyboard
+
+I've just managed to put together my new keyboard! I have been on a 40% Planck for a couple of years now and suddenly one day it felt... big. So I did what every normal person would do. I started solving the Gherkin puzzle. While Planck has a plentiful 48 keys arranged as 4 by 12, Gherkin has only 30, in 3 lines of 10. There are 26 letters in the English alphabet, so with one key per letters this leaves exactly four other keys. There are a number of keys fighting for being one of those primary keys:
+
+* Space
+* Escape (vim, it's a given)
+* ,
+* .
+* Shift
+* Ctrl
+* Super
+* Alt
+* AltGr (I'm Swedish, need my intl stuff)
+* Tab
+
+Now, as I read up on the internets how people would solve this. You could do cool things with chords but that felt a bit like it would be uncomfortable. Then there is the hold/press feature that QMK has, where a key can be different things if you hold or press, like Ctrl if held, the letter Z if pressed. But then how would you do Ctrl-Z? One might have regrets. Right, you need two of each modifier, one on each side for instance.
+
+I ended up with this (so far). It's rotated 180 degrees because they put the connector on the wrong side. This is meant to run on US intl AltGr with dead keys.
+```
+const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  // DEFAULT LAYER
+  [0] = LAYOUT_ortho_3x10(
+    CTL_SPC, GUI_DOT, ALT_COMM,KC_M,    FN2_N,   FN1_B,   AGR_V,   ALT_C,   GUI_X,   CTL_Z,
+    SFT_ESC, KC_L,    KC_K,    KC_J,    KC_H,    KC_G,    KC_F,    KC_D,    KC_S,    SFT_A,
+    KC_P,    KC_O,    KC_I,    KC_U,    KC_Y,    KC_T,    KC_R,    KC_E,    KC_W,    KC_Q
+  ),
+
+  // FN1 (Left FN key)
+  [1] = LAYOUT_ortho_3x10(
+    KC_SLSH, KC_DOT,  KC_COMM, KC_QUOT, KC_DEL,  XXXXXXX, KC_RALT, KC_LALT, KC_LGUI, KC_LCTL,
+    KC_ENT,  KC_RIGHT,KC_UP,   KC_DOWN, KC_LEFT, XXXXXXX, XXXXXXX, KC_GRV,  KC_BSLS, KC_LSFT,
+    KC_0,    KC_9,    KC_8,    KC_7,    KC_6,    KC_5,    KC_4,    KC_3,    KC_2,    KC_1
+  ),
+
+  // FN2 (Right FN key)
+  [2] = LAYOUT_ortho_3x10(
+    KC_MFFD, KC_VOLU, KC_VOLD, KC_MRWD, XXXXXXX, KC_BSPC, KC_RALT, KC_LALT, KC_LGUI, KC_LCTL,
+    KC_TAB,  KC_SCLN, KC_COLN, KC_RCBR, KC_LCBR, KC_EQL,  KC_MINS, KC_RBRC, KC_LBRC, KC_LSFT,
+    KC_TAB,  XXXXXXX, KC_PGUP, KC_PGDN, KC_END,  KC_HOME, KC_INS,  OSL(3),  KC_TILD, KC_GRV
+  ),
+
+  // Fx/Special One-off layer (Right FN key + E)
+  [3] = LAYOUT_ortho_3x10(
+    TO(0),   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LALT, KC_LGUI, KC_LCTL,
+    KC_F12,  KC_F11,  XXXXXXX, XXXXXXX, XXXXXXX, EEP_RST, DEBUG,   RESET,   KC_PSCR, KC_LSFT,
+    KC_F10,  KC_F9,   KC_F8,   KC_F7,   KC_F6,   KC_F5,   KC_F4,   KC_F3,   KC_F2,   KC_F1
+  )
+}
+```
+So far, most, but not all keys work. Direct parenthesis gives nothing for instance. I'm rediculously slow on this and make types all the time. But I only spent two hours with it so that isb expected.
+
+What is really annoying though is that the hold/press feature works less than perfect. If I type a little fast I end up with S instead if as because A and Shift are the same key. Maybe I n lower the sensitivity orbjust learn to do this properly.
+
+## Swifties
+
+Original ones, of course.
+
+> That time I put the hair back on the dog, Tom refered
+
+> I prefer analog movies, Tom said, really
+
+> Then I joined the gang again, Tom remembered
+
+> It's not me in that old blues song, Tom told us duly
+
+It took like month to write this on the new keyboard.

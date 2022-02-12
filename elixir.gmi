@@ -1,0 +1,9 @@
+# Elixir
+
+Someone at work mentioned Elixir today. I have been glancing at it before, as well, as other Erlang VM based languages, but never really done anything but looking through the getting started guide, looking at various constructs and nodding, thinking: ah, that's neat. The thing is, I have never really done anything with a declarative language at all. I've been programming professionally in Python, C#, Java and even Perl, all good ol' imperative languages. Would it not be fun to once and for all build something in a declarative language?
+
+Also, I have been interested in Erlang ever since I read Coders at Work and specifically the chapter on Joe Armstrong, the inventor of Erlang and OTP (Open Telecom Platform or, if you will, Outlaw Techno Psychobitch). The hotswapping, the message passing, the monitoring, the failure assumption, it all resonated with me. So I had a solution, a hammer, but I had no nail. Well, another problem was that the Erlang syntax was entirely unreadable, hence the looking out for other languages on top of the Erlang VM and OTP.
+
+Now, enter Gemini. A nail hit more times than the number of sites. So what harm would it make to create yet another server? We'll see. I'll give it a shot. It's supposed to be easy, and it has already been done in Erlang.
+
+=> https://codersatwork.com/ Coders at Work

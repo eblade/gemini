@@ -1,0 +1,110 @@
+
+
+```
+
+                                .::   .::         .::
+                             .::   .:: .::       .::
+                            .::         .::     .::
+                            .::          .::   .::
+                            .::           .:: .::
+                             .::   .::     .::::
+                               .::::        .::
+
+```
+
+johan@egneblad.se
+
+
+## Working experiences
+
+September 2016 - Present
+Advanced Analyst/Data Scientist at Nepa London/Stockholm
+
+Working with retailers, media companies and FMCG (fast moving consumer goods) to help them better understand the impact of marketing strategies as well as logistics through statistical analysis and machine learning.  Also including software development for internal tools.
+
+
+February 2016 - September 2016
+System Engineer at Vizrt, London
+
+Getting an opportunity to move to London with my girlfriend I once again took on the role as System Engineer. Now being based in London, the job offered me to work for some of the largest broadcasters in the world, helping them to structure and polish their media workflows. I also had the opportunity to build more sophisticated additions to the SDK.
+
+
+June 2015 - January 2016
+Software Developer and Scrum Master at Vizrt, Stockholm
+
+With new knowledge and experience I came back to R&D as Scrum Master and developer for a small team of five people. The target was again Viz One and especially its back end and their rest APIs. I also got to work more in depth with video formats and various video operations.
+
+
+May 2013 - June 2015
+System Engineer at Vizrt, Stockholm
+
+To learn more about the field I decided to join the Professional Services team as a System Engineer, which allowed me to work closer to the customers and by doing so learn more about what they need and want. Tasks included are installation of multi-server systems and also development of custom integrations and business logic (the part I enjoyed the most). During this period I started to develop what would later become the official Python SDK for the Viz One APIs.
+
+
+May 2011 - May 2013
+Software Developer at Vizrt, Stockholm
+
+My first two years at Vizrt included development of the product Ardome and it successor Viz One. They are Media Asset Management (MAM) system for use mainly in the television broadcast industry. Amongst its users are several of both the global and local actors of the field. The challenge of working with this product is mainly that it is a fairly large and heavily distributed system which have to handle simultaneous operations from users and business logic while keeping the data consistent and available.  Techniques involved are ActiveMQ, Memcached, Solr, Apache, Nginx, DB2 and Oracle and it all runs on Enterprice Linux hosts.
+
+
+## Education
+
+2006 - 2012
+Design and Production Realisation, Royal Institute of Technology, Stockholm with a Master in Mechatronics
+
+2005 - 2006
+Military Service, S1, Enkoping
+Electronic Warfare
+
+2002 - 2005
+High School, Science, Rinman, Eskilstuna
+
+
+## Programming Languages
+
+Used on a weekly basis:
+
+* C#
+* Python
+* JavaScript/HTML/CSS/Angular/jQuery
+* SQL
+* Bash
+
+I am also comfortable with:
+
+* Perl
+* C
+* C++
+
+
+## Technologies
+
+* Linux (SLES, Redhat, Ubuntu, Fedora, Debian)
+* Databases (DB2, Oracle, MS SQL Server)
+* Message Queues (ActiveMQ)
+* Search Engine (Solr)
+* Source Control (git, bzr, svn)
+* VIM (not gVIM!)
+* Windows
+
+
+## Languages
+
+* Swedish (native)
+* English (fluent)
+* German (limited)
+
+
+## Voluntary Commissions
+
+2010 - 2011
+Chairman of the Machine Design Chapter at KTH (Royal Institute of Technology)
+The Machine Design Chapter is a Student Union organisation with around 1200 members. The work as chairman includes leading board meetings and also a number of public speeches and larger meetings. Together with board, various events are arranged.
+
+
+2009 - 2010
+Chairman of the Machine Design Chapters Board of Education at KTH
+
+The Board of Education works for improving the courses at the university through continuously evaluating and collecting other student's views for sharing with professors and administration.
+
+

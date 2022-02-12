@@ -1,0 +1,25 @@
+# New Keyboard Part II
+
+So, two days have gone with the new keyboard, the Gherkin. Not with much mileage I'm afraid, but some learnings. Firstly, a key stopped working yesterday. So I resoldered it. Didn't work. I very rarely cold solder, but it could have been that. It was about bedtime (perhaps overdue) anyway. So time to retire.
+
+The day after (today), I googled how to fix Cherry MX switches, and this quite comprehensive guide basically told your switch is broken, dude.
+
+=> https://imgur.com/a/fyxIg
+
+So I got the message and bought a thing I wanted for a long time anyway, a desoldering station. It's like a soldering station cross-bread with a vacuum cleaner and truely the most awesome machine. The things you do for your keyboards, right? I desoldered the suspected broken switched and soldered on another one from my stash from my old Planck board. I soldered it. But to my disappointment, it still did not work!
+
+Now, I did what I should have done from the start, produced my DMM and put it buzzer mode to test the switch. I first tested the old switch I had desoldered. Worked. Then the new one on the board. Worked. OK, so what is it? I took another look at the back of the board and then I saw it. When soldering the 30 diodes I had missed one leg of one diode. The on next to this switch. So this had worked by pure luck for a while, and then Karma struck.
+
+So, I soldered it and then everything worked.
+
+## Layout Learnings
+
+I wrote about my theories of how things would work out with the layout. I did not think I would use chords, or "combos" as they're called. I was wrong. I put them everywhere. I still use the tap-hold feature for modifiers and layer switching, but I had to turn on the ignore tapping interrupts feature so modifier tap-holds work like layer tap-holds and don't accidentally bind if you happen to start pressing the next key before you let go of the modifier. So combos, I use them for Escape, Tab, Backspace, Delete, dash, underscore, colon and semicolon. They are quite comfortable in certain areas of the keyboard, so I think I ll explore this further. My quotes are still a bit awkwardly positioned.
+
+Maybe I should chord all the F keys vertically? I find it fascinating how having less keys actually frees the mind a bit since you're forced to think outside the proverbial box. If you don't, the puzzle won't solve. I think that, when I'm done with my layout, I will probably have more keys on my primary layer than I have on the Planck.
+
+## More Swifties
+
+> I remember when I first started programming, Tom said basically
+
+> These switches are not rubber-dome, Tom explained mechanically
