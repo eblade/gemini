@@ -1,9 +1,10 @@
 # New Certificate, New Server
 
-So, after all the talk about TLS and TOFU and security, I am jumping onto the bandwagon and doing two things:
+So, after all the talk about TLS and TOFU and security, I am jumping onto the bandwagon and doing three things:
 
 * Switching from Let:s Encrypt certs to a new self-signed one with a long lifespan (even tough it is less safe it is more Gemini, so let's do it)
 * After all the security updates and directory traverse bugs and whatnot, I am switching to Agate. I have very simple needs, so a simple server written in Rust, that is also actively maintained, should fit my needs perfectly.
+* Add a .well-known/security.txt file
 
 I wanted to "antenna" out the new cert message so you don't get scared when your browser screams about untrusted certificate.
 
