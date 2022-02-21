@@ -13,3 +13,4 @@ cd $dir
 
 rm -r $PUBLISH_DIR/*
 cp -r content/* "$PUBLISH_DIR"
+cp -r content/.well-known "$PUBLISH_DIR"
