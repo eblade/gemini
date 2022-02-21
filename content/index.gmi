@@ -20,6 +20,7 @@
 
 Any replies to johan [at] egneblad.se
 
+=> new-cert-new-server.gmi 2022-02-21 New Certificate, New Server
 => for-and-against-the-free-market.gmi 2022-02-12 For and Against the Free Market
 => new-keyboard-part-3.gmi 2022-01-12 New Keyboard Part III
 => final-countdown.gmi 2022-01-03 Final Countdown
