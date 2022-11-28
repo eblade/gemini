@@ -8,9 +8,9 @@ Further suppose that these people who comes with said request knows how to code.
 
 Sometimes, though, they came up with the idea themselves, or their customer did, or there is simply a lot of pressure on them to perform and make things happen. So what do they do if the developers can't help them out?
 
-You guessed it. They build it themselves. Do they realize at that point that they got themselves a pet dog that will need all their attention for the coming years? That we now have another system(esque thing) that duplicates a lot of functionality of another system we already have,except this little difference? That they are only one person that knows how this thing works and the bus test for this thing would fail hard?
+You guessed it. They build it themselves. Do they realize at that point that they got themselves a pet dog that will need all their attention for the coming years? That we now have another system(esque thing) that duplicates a lot of functionality of another system we already have, except this little difference? That they are only one person that knows how this thing works and the bus test for this thing would fail hard?
 
-The bad news is, that this cannot be stopped. Good/profitable/likable/fun ideas will find a way. They are streams of water down a mountain that only obeys one law, that of gravity. If the developers do not recognize these situations and give in a little, the alternative is additional rogue systems in the trenches of the company, where the actual core of the business is.
+The bad news is, that this cannot be stopped. Good/profitable/likable/fun ideas will find their way. They are streams of water down a mountain that only obey one law, that of gravity. If the developers do not recognize these situations and give in a little, the alternative is additional rogue systems in the trenches of the company, where the actual core of the business is.
 
 Am I saying that developers should just blindly build what they are asked to build? No, that will lead to a deeply incoherent and unmaintainable mess of a system that can't be touched ever so gently without it all falling down like a house of cards. Then what to do about this force of nature?
 
