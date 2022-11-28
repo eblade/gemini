@@ -1,0 +1,17 @@
+# Ideas will find their way
+
+These are my thoughts on a topic I have tried to argue for at work for quite some time, and I think I am getting some support for it, but a solution is a much tricker thing to arrive at.
+
+Imagine a business where the product is backed up by internal software to help with deliveries. Imagine this software having been built upon and added to for quite some time now. We are seeing some technical debt accumulating, and it can be hard to add new features as they will not easily fit with the existing codebase. This means developers will have to say no or give really long estimates when someone from operations or sales comes along and says that we could do this really good customer project if only we had some feature X or could do the slightly different Y version of existing feature Z. The thing that they ask for is actually a sensible thing to do, not just easily implemented in the current state of the internal company software, or simply there are a million other more prioritized things to do currently, from the point of a Roadmap or Strategy.
+
+Further suppose that these people who comes with said request knows how to code. They are not developers but they can build some pretty complicated stuff in Python or R, or God forbid, Excel. What are they going to do when the developers say no? Will they, though a little disappointed, accept the no, give up the customer project and get on with their lives looking for new opportunities? Sometimes.
+
+Sometimes, though, they came up with the idea themselves, or their customer did, or there is simply a lot of pressure on them to perform and make things happen. So what do they do if the developers can't help them out?
+
+You guessed it. They build it themselves. Do they realize at that point that they got themselves a pet dog that will need all their attention for the coming years? That we now have another system(esque thing) that duplicates a lot of functionality of another system we already have,except this little difference? That they are only one person that knows how this thing works and the bus test for this thing would fail hard?
+
+The bad news is, that this cannot be stopped. Good/profitable/likable/fun ideas will find a way. They are streams of water down a mountain that only obeys one law, that of gravity. If the developers do not recognize these situations and give in a little, the alternative is additional rogue systems in the trenches of the company, where the actual core of the business is.
+
+Am I saying that developers should just blindly build what they are asked to build? No, that will lead to a deeply incoherent and unmaintainable mess of a system that can't be touched ever so gently without it all falling down like a house of cards. Then what to do about this force of nature?
+
+The best thing I can think of is to try to create a more modular or pluggable system, with a simple, robust core and plug-ins that are only loaded when they are in use. That way Large Customer With Specific Demands can have their special solution without adding complexity for the main system and by that all the other customers. It sounds simple enough but turns out to be quite the task. I'll try though. Wish me luck.
