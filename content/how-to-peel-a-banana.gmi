@@ -1,0 +1,9 @@
+# How To Peel a Banana Like a Civilized Person
+
+I have had this rather unconventional way of peeling a banana the last couple of years, or rather it is the first step that differs, the opening part. I think it is genius but every time I tell someone about it, they are less than impressed (except my four-year-old daughter, she gets it). I think it boils down to me being a rare example of someone who thinks this is a problem in the first place (which it clearly is). Let me explain!
+
+When one opens a banana, one would grab the little stump and bend it backwards so that the peel cracks and one has a starting point for the rest of the peeling process. The problem, in my experience, is that this cracking is far from a reliable and deterministic operation. Sometimes, it cracks along the banana, and sometimes not at all, both scenarios resulting in the top of the banana's internal being squeezed (a sub-optimal outcome, for sure). It is only when one has a clean orthogonal crack that the result is satisfactory.
+
+So, now that we have established that this is a problem, what is my solution? I'm glad you should ask! It is very simple, but requires a tool (which we have, we are civilized). You simply take a knife (does not even have to be very sharp, a table knife will suffice) and make a small cut where you want the crack to appear. You can now use the same stump-bent-backwards technique as before, only with a fully deterministic result, the optimal one. It has never failed me.
+
+Now, is this superfluous or genius?

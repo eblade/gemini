@@ -20,6 +20,7 @@
 
 Any replies to johan [at] egneblad.se
 
+=> how-to-peel-a-banana.gmi 2023-01-27 How To Peel a Banana Like a Civilized Person
 => ideas-will-find-their-way.gmi 2022-11-28 Ideas Will Find Their Way
 => the-beauty-of-the-incomplete.gmi 2022-03-01 The Beauty of the Incomplete
 => new-cert-new-server.gmi 2022-02-21 New Certificate, New Server
