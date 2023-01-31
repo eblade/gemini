@@ -1,0 +1,18 @@
+# This is Bananas!
+
+A few days ago I wrote a very serious post on how to properly peel a banana:
+
+=> how-to-peel-a-banana.gmi How To Peel a Banana Like a Civilized Person
+
+And, for the first time I got a reply here on Gemini, which was surprising and very exciting. Telepta writes:
+
+> Peeling a banana from the stem is barbarous. Use your forefinger and thumb to pinch the nub on the opposite end of the stem. This is the monkey way, or so it is said.
+
+=> gemini://tilde.pink/~telepta/gems/how-to-peel-a-banana.gmi Telepta's full reply includes a very pretty banana ascii art
+
+As any open-minded person would do I went ahead and tested the suggested method (especially when it came with such prestigious though unverified citation). I found to great disappointment that it has two for me deal-breaking flaws:
+
+* First, it does not always work, it suffers from the same unreliability issue I tried to escape in the first place. I have two data points to back this up. This could be a lack of proper experience from my side, though.
+* Second, when it works, it leaves the bad harder part of the pulp that sits right under the nub for the eater to enjoy first. I would have to manually remove that since I do not want to eat it. This will sully my fingers unnecessarily.
+
+So I will have to disagree with Telepta and allegedly also all monkeys (who possibly have oversight with my second objection and more experience cancelling my first).
