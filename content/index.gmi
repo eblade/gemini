@@ -20,6 +20,7 @@
 
 Any replies to johan [at] egneblad.se
 
+=> dem.gmi 2023-04-16 Dem
 => this-is-bananas.gmi 2023-01-31 This is Bananas!
 => how-to-peel-a-banana.gmi 2023-01-27 How To Peel a Banana Like a Civilized Person
 => ideas-will-find-their-way.gmi 2022-11-28 Ideas Will Find Their Way
