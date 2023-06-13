@@ -1,0 +1,38 @@
+# The Cost of Change
+
+Having worked with software for a while, in different contexts but more importantly in different stages of the "life cycle" (like the end was somehow connected to the start), I have noticed that changes are easier to make in the beginning than later. This is of course nothing new revolutionary with that. Barry Boehm wrote in his 1981 book "Software Engineering Economics" about how changes are many times more expensive later in a project than early on [1]. Preferably all design changes should be thought of and included already in the design phase.
+
+"Design phase!" you exclaim, "That is Waterfall! That was banned during the Agile Uprising and we are not using that stupid methodology any more. So we are immune against all the weaknesses that it was subject to." Right. But take a look at the front page of that book, it is a chart of a Driver Analysis. That is basically a regression analysis where you try to figure out who much influence various factors have on a certain output, and also the relative weight these factors have compared to each other. On a strong second place we have "Complexity". Well, Agile methodologies somewhat addresses complexity indirectly by being able to ignore certain unimportant features by forcing them out of scope because of time constraints. That is probably the single most valuable feature of the Agile I would argue. So, problem solved. Not quite.
+
+For the sake of keeping this text short and making a point that is applicable to the real world, I will narrow down the type of software development to the kind I have been doing the most. The kind that is never finished, be it a product that is sold externally or an internal system that is only used by coworkers. Regardless of the software being distributed in versions or more continuously, it is never really done. The world around us changes, so the requirements on the software changes with it. In order for the software to stay relevant it has to be constantly adapted to new market needs as well as updated libraries and operating systems and cloud technologies and frameworks that Microsoft cancels or that module only really understood by [person who no longer works here].
+
+## Is Agile Phaseless?
+
+One could (without letting it control the work, of course) divide the "life cycle" of a software into different phases (which are not waterfall phases):
+
+1. Requirement (we are just discussing what we should do with the software, estimate how long it will take and so on in order to get buy-in from stakeholders)
+2. Design (we are just drawing on boards and trying out tools and libraries that we might use, this might not look iterative, but it is part of the iterative process that is not a process but more of a way of working)
+3. Implementation (well it is not just implementation, we can go back and change the requirements and design and we're going to do that lots of times)
+4. Verification (we are actually skipping this part entirely since this is Agile, we sort of did that, probably)
+5. Maintenance (this is Agile maintenance, it's totally different from waterfall maintenance, because it is more... iterative).
+
+So the idea of the exponentially increasing cost of changes across these phases, kind of hold true to some extent even in Agile, because of the fact that Agile software development is also based on phases, even though the borders between them are a bit fuzzier and it is allowed to jump back if needed (certainly good improvement, don't get me wrong). But nonetheless, still phases. There is still a constantly growing variable called time. There is still "early in the project" and "late" aka "maintenance". Change is still more costly later than earlier. But maybe not for the same reasons. It is no longer because we need to fill out lots of forms and go to many meetings (well) but for another more physics-like reason. By building on the software and adding features to it, we are adding complexity to it. Complexity can be seen as the number of interconnections between parts (modules, functions, subsystems, other systems) weighed by the non-clarity of how those interconnections induces dependencies. This state mostly gets worse over time, but there are things we can do to mitigate it.
+
+=> change.png Cost of Change vs. Complexity
+
+As you can see in the (unit-less) chart above, the idea is that cost grows exponentially with complexity which is (simplified) a function of time, ideology and discipline. The chart suggests furthermore that there is a point of complexity, given the value the software provides, where the cost of change is bigger than the ROI for the given change. With, let's say, Banks this limit might be way higher up than normal mortal companies, but it still comes, since the cost grows exponentially [1] [3]. So, what to do then? There are a few options:
+
+1. Stop making changes and let the software die slowly.
+2. Take shortcuts and add hacks that provide desired new features or changes while making the complexity situation even worse and let the software die a little quicker.
+3. Start over with version 2.0 that will solve all the problems and let version one die slowly with while even more slowly migrating all the customers over. Also we are never let version 2.0 grow to such a beast (it will).
+4. Do the work and cut off the excess fat. Focus and revitalise the software. Rewrite the most rotten parts and let the new teams really own the software, not just inherit it. This work is never finished, and if you stop, the software will start dying slowly again.
+
+There is really only one way (unfortunately, option 3 never really works).
+
+## Some Kind of Conclusion
+
+What I think this boils down to is that there is, given the provided value of a software, an absolute upper limit on how complex a system can be let to grow if it is still going to be maintainable. That limit must be even lower if you take into account that the market requires new features of it, and even lower if you also take into account the additional work going into reducing the complexity so that the Δ Complexity stays zero as a whole. This means removing features, untangling dependencies, refactoring, simplifying workflows, decoupling adjacent systems to clarify the dependencies between them, replacing two-way dependencies with one-way dependencies. When all these tricks are exhausted only one thing remains, make business decisions to focus the business so that some requirements on the software can go, so we in turn can remove even more complexity.
+
+=> https://www.amazon.com/dp/0138221227 [1]: Software Engineering Economics, Barry Boehm, 1981 [2]
+[2]: Disclaimer: I did not actually read the book, only looked at the cover and read a couple of blog posts referring to it.
+[3]: I keep saying that and it is because the number of interconnections between components grow exponentially with the number of involved components, unless you really try to make them not do that.
