@@ -29,9 +29,11 @@ As you can see in the (unit-less) chart above, the idea is that cost grows expon
 
 There is really only one way (unfortunately, option 3 never really works).
 
-## Some Kind of Conclusion
+## Conclusion
 
 What I think this boils down to is that there is, given the provided value of a software, an absolute upper limit on how complex a system can be let to grow if it is still going to be maintainable. That limit must be even lower if you take into account that the market requires new features of it, and even lower if you also take into account the additional work going into reducing the complexity so that the Δ Complexity stays zero as a whole. This means removing features, untangling dependencies, refactoring, simplifying workflows, decoupling adjacent systems to clarify the dependencies between them, replacing two-way dependencies with one-way dependencies. When all these tricks are exhausted only one thing remains, make business decisions to focus the business so that some requirements on the software can go, so we in turn can remove even more complexity.
+
+I find it interesting that I went out to make sense of the cost of change and landed in that long agile projects are a rounding error from being in essence waterfall. One should be careful not to be the one to throw the first stone in a glass house.
 
 => https://www.amazon.com/dp/0138221227 [1]: Software Engineering Economics, Barry Boehm, 1981 [2]
 [2]: Disclaimer: I did not actually read the book, only looked at the cover and read a couple of blog posts referring to it.
