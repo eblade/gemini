@@ -20,6 +20,7 @@
 
 Any replies to johan [at] egneblad.se
 
+=> change.gmi 2023-06-17 The Cost of Change
 => dem.gmi 2023-04-16 Dem
 => this-is-bananas.gmi 2023-01-31 This is Bananas!
 => how-to-peel-a-banana.gmi 2023-01-27 How To Peel a Banana Like a Civilized Person
