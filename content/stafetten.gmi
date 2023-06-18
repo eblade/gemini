@@ -27,3 +27,7 @@ All pictures in on this page are ©Natalia Chuvashova 2018-present.
 
 => media/04.pdf ♫ Sheet music for Fourth Muisical Response
 => media/07.pdf ♫ Sheet music for Final Muisical Response
+
+## Licenses
+
+The works are licenced under CC-BY-SA which means that you may use the works however you want, as long as you credit the author and also release any derivative works under the same licence. All music on this page is created by Johan Egneblad (as Islandery), and all imagery by Natalia Chuvashova.
