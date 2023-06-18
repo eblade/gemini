@@ -8,8 +8,6 @@ Building on the original Stafetten projects, Natalia and I has made three minor 
 2. We switched who starts (me, a.k.a Islandery this time).
 3. More loosely defined, we are trying not to make it as dark this time. The world is dark enough as it is.
 
-As before all the music is CC-BY-SA (give credit and share derivatives with the same license), and the images are ©Natalia Chuvashova 2023.
-
 ## Entries
 
 => media/201.mp3 ♪ Musical Seed
@@ -17,3 +15,7 @@ As before all the music is CC-BY-SA (give credit and share derivatives with the 
 => media/202.mp3 ♪ Second Musical Response
 
 more to come!
+
+## Licenses
+
+The works are licenced under CC-BY-SA which means that you may use the works however you want, as long as you credit the author and also release any derivative works under the same licence. All music on this page is created by Johan Egneblad (as Islandery), and all imagery by Natalia Chuvashova.
