@@ -2,11 +2,11 @@
 
 ## Zon 21
 
-=> 2201.gmi 22-01 Pedalskrevan 
-=> 2202.gmi 22-02 Hög risk/reward ratio
-=> 2203.gmi 22-03 Bergodalbana
-=> 2204.gmi 22-04 Exposören
-5. "Standardbanan"
+=> 2101.gmi 21-01 Pedalskrevan
+=> 2102.gmi 21-02 Hög risk/reward ratio
+=> 2103.gmi 21-03 Bergodalbana
+=> 2104.gmi 21-04 Exposören
+=> 2105.gmi 21-05 Standardbanan
 6. "Nybörjarbanan"
 7. "Bara på vintern" ?n
 8. "Björns dödsbrant"
