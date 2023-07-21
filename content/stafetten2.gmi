@@ -11,7 +11,7 @@ Building on the original Stafetten projects, Natalia and I has made three minor 
 ## Entries
 
 => media/201.mp3 ♪ Musical Seed
-=> media/202.jpg ▣ First Visual Response
+=> media/201.jpg ▣ First Visual Response
 => media/202.mp3 ♪ Second Musical Response
 => media/202.jpg ▣ Second Visual Response
 
