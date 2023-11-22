@@ -15,6 +15,7 @@ Building on the original Stafetten projects, Natalia and I has made three minor 
 => media/202.mp3 ♪ Second Musical Response
 => media/202.jpg ▣ Second Visual Response
 => media/203.mp3 ♪ Third Musical Response
+=> media/203.jpg ▣ Third Visual Response
 
 more to come!
 
