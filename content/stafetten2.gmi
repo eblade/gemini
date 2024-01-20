@@ -4,7 +4,7 @@
 
 Building on the original Stafetten projects, Natalia and I has made three minor changes:
 
-1. There is a (soft) time limit of one month for each work.
+1. There is a (increasingly soft) time limit of one month for each work.
 2. We switched who starts (me, a.k.a Islandery this time).
 3. More loosely defined, we are trying not to make it as dark this time. The world is dark enough as it is.
 
@@ -16,6 +16,7 @@ Building on the original Stafetten projects, Natalia and I has made three minor 
 => media/202.jpg ▣ Second Visual Response
 => media/203.mp3 ♪ Third Musical Response
 => media/203.jpg ▣ Third Visual Response
+=> media/204.mp3 ♪ Fourth Musical Response
 
 more to come!
 
