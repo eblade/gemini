@@ -8,6 +8,7 @@
 
 ## Gemlog
 
+=> keyboards.gmi 2024-07-30 Keyboards
 => humbling-experiences.gmi 2024-03-22 Humbling Experiences
 => change.gmi 2023-06-17 The Cost of Change
 => dem.gmi 2023-04-16 Dem
